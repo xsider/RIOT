@@ -131,11 +131,19 @@ extern "C" {
  * @name UART configuration
  * @{
  */
+<<<<<<< HEAD
 #define UART_NUMOF          (2U)
 #define UART_0_EN           1
 #define UART_1_EN           1
 #define UART_2_EN           0
 #define UART_3_EN           0
+=======
+#define UART_NUMOF          (4U)
+#define UART_0_EN           1
+#define UART_1_EN           1
+#define UART_2_EN           1
+#define UART_3_EN           1
+>>>>>>> 4ef889f9ce38793ff4ed20b90b20c32f76028d08
 
 /* UART 0 registers */
 #define UART0_CTRL_STAT_A   UCSR0A
